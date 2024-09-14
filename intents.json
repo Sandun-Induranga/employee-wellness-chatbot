@@ -1,0 +1,243 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Howdy",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How’s everything going today?",
+        "Hi there! Ready to focus on your wellness?",
+        "Hey! What can I assist you with today?",
+        "Good [morning/afternoon/evening], how are you feeling today?"
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How are you?",
+        "What’s up?",
+        "How’s it going?",
+        "How are things?",
+        "How’s your day?",
+        "What’s new?"
+      ],
+      "responses": [
+        "I’m here to help you stay well! How can I assist?",
+        "All is good here! How can I support you today?",
+        "Just here, helping you out. How’s your day going?",
+        "Not much! How are things with you?"
+      ]
+    },
+    {
+      "tag": "wellness_check",
+      "patterns": [
+        "How can I stay healthy?",
+        "How do I take care of my wellness?",
+        "Any wellness tips?",
+        "What’s a good wellness routine?",
+        "Help me stay healthy"
+      ],
+      "responses": [
+        "Balance is key! Get enough sleep, hydrate, and take regular breaks.",
+        "Start your day with some light stretches and hydration.",
+        "Mental health is just as important as physical health. Take time to de-stress.",
+        "Establish a routine that includes relaxation, exercise, and a nutritious diet."
+      ]
+    },
+    {
+      "tag": "productivity",
+      "patterns": [
+        "How can I be more productive?",
+        "Any productivity tips?",
+        "Help me focus",
+        "I need to boost my productivity",
+        "How do I stop procrastinating?"
+      ],
+      "responses": [
+        "Break your tasks into smaller goals and tackle them one at a time.",
+        "Stay productive by taking short, frequent breaks after focused work sessions.",
+        "Start with your most important tasks and work your way down.",
+        "Use a to-do list and check off tasks as you complete them. It’s motivating!"
+      ]
+    },
+    {
+      "tag": "work_life_balance",
+      "patterns": [
+        "How do I balance work and life?",
+        "Any tips for work-life balance?",
+        "I need help with my work-life balance",
+        "How can I manage my time better?"
+      ],
+      "responses": [
+        "Set clear boundaries between work and personal life, and stick to them.",
+        "Plan your day effectively so you have time for both work and relaxation.",
+        "Don’t forget to unwind after work. Your free time is just as important!",
+        "Make sure to spend time on activities that make you happy and relaxed."
+      ]
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "I’m feeling down",
+        "I’m feeling anxious",
+        "How can I manage my stress?",
+        "I’m struggling with anxiety",
+        "I need mental health support"
+      ],
+      "responses": [
+        "It’s okay to feel this way. Try some deep breathing exercises.",
+        "Take a short walk, meditate, or talk to someone. You don’t have to do this alone.",
+        "Focus on your breathing: Inhale for 4 seconds, hold, then exhale for 4 seconds.",
+        "It’s important to reach out when you’re struggling. You don’t have to go through it alone."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What should I eat to stay healthy?",
+        "Any nutrition tips?",
+        "What’s a balanced diet?",
+        "How can I improve my diet?",
+        "What’s a healthy meal plan?"
+      ],
+      "responses": [
+        "A balanced diet includes fruits, vegetables, lean proteins, and whole grains.",
+        "Hydrate throughout the day and avoid processed foods as much as possible.",
+        "Try to eat a variety of foods to ensure you’re getting all necessary nutrients.",
+        "Small, consistent changes to your diet can make a big difference in the long run!"
+      ]
+    },
+    {
+      "tag": "workout",
+      "patterns": [
+        "What workouts can I do?",
+        "Any tips for staying active?",
+        "How do I exercise during work?",
+        "Help me stay active",
+        "What are good exercises for beginners?"
+      ],
+      "responses": [
+        "Try simple desk exercises like shoulder rolls or seated leg raises during breaks.",
+        "A 30-minute walk or light stretching can do wonders for your body and mind.",
+        "Begin with simple exercises like walking, jogging, or yoga.",
+        "Regular activity, even just 10 minutes, can improve both your physical and mental health."
+      ]
+    },
+    {
+      "tag": "career_advice",
+      "patterns": [
+        "How can I improve my career?",
+        "Any career advice?",
+        "How do I get a promotion?",
+        "How can I grow in my career?",
+        "I want to advance my career"
+      ],
+      "responses": [
+        "Continuously learn new skills to stay relevant in your field.",
+        "Seek out feedback from peers and supervisors to improve.",
+        "Set clear goals and develop a plan to achieve them.",
+        "Building a network of supportive colleagues can help open new opportunities."
+      ]
+    },
+    {
+      "tag": "inspirational_quotes",
+      "patterns": [
+        "Tell me something inspiring",
+        "Give me some motivation",
+        "I need an inspirational quote",
+        "Can you inspire me?"
+      ],
+      "responses": [
+        "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+        "Believe you can and you’re halfway there. - Theodore Roosevelt",
+        "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+        "Don’t watch the clock; do what it does. Keep going. - Sam Levenson"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Tell me something funny",
+        "Cheer me up with a joke"
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why don’t scientists trust atoms? Because they make up everything!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel down",
+        "Can you motivate me?",
+        "I need some motivation",
+        "I’m not feeling great"
+      ],
+      "responses": [
+        "You’re stronger than you think. Keep pushing!",
+        "You got this! Every step forward is progress.",
+        "Sometimes things are tough, but you're tougher. Keep going!",
+        "Every challenge is an opportunity to grow. You’ve got what it takes!"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Can I give feedback?",
+        "I have some feedback",
+        "I’d like to share my opinion",
+        "Where can I give feedback?"
+      ],
+      "responses": [
+        "Your feedback is important! Feel free to share your thoughts with me.",
+        "We’d love to hear from you! Let me know what’s on your mind.",
+        "I’m all ears! How can we improve your experience?",
+        "Please share your feedback, we’re always looking to get better."
+      ]
+    },
+    {
+      "tag": "stress_relief",
+      "patterns": [
+        "I’m feeling stressed",
+        "How do I reduce stress?",
+        "Help me relax",
+        "I need stress relief tips"
+      ],
+      "responses": [
+        "Try taking deep breaths for a few minutes. It helps calm the mind.",
+        "A short walk or some stretching might help you feel more relaxed.",
+        "Listen to some calming music or try a quick meditation.",
+        "It’s okay to take a break and disconnect. Your mental health matters!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Take care"
+      ],
+      "responses": [
+        "Take care of yourself! Talk soon!",
+        "Stay positive! Goodbye for now.",
+        "See you later! Remember to prioritize your wellness.",
+        "Goodbye! Stay healthy and happy!"
+      ]
+    }
+  ]
+}
+
